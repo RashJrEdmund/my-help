@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.code {
+  background: #888686;
+  color: #ffffff;
+  width: 500px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.code-description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: translateY(calc(100% + 5px));
+  font-style: italic;
+  color: #000000;
+  margin: 0;
+}
+
+.step-image {
+  margin-top: 1rem;
+}
+
+.mt-4 {
+  margin-top: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 3rem;
+}
+
+.mr-4 {
+  margin-right: 3rem;
+}
+
+.ml-4 {
+  margin-left: 3rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.w-full {
+  width: 100%;
+}
